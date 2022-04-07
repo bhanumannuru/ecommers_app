@@ -1,0 +1,22 @@
+
+
+URL:
+http://localhost:9092/createUser
+
+POST Request
+{
+    "name" : "bhaskar",
+    "email" : "anvbhaskar7@gmail.com",
+    "password" : "India@123",
+    "firstName" : "Naga Venkata Bhaskar",
+    "lastName" : "Appana",
+    "enabled" : 1,
+     "addresses" : [
+         {
+             "street" : "Puppalaguda",
+             "city" : "Hyderbad",
+             "country" : "India",
+             "postcode" : "500079"
+         }
+     ]
+}
